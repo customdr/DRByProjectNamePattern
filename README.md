@@ -5,7 +5,7 @@ Apply different data retention criteria based on production projects vs. non-pro
 
 **By default, the script runs in dry run mode – and does not run DR. This is a fail-safe to prevent accidentally deleting data.**
 
-*To actually run DR, they have to explicitly provide the -exec parameter.*
+*To actually run DR, the -exec parameter needs to be explicitly provided.*
 
 # Pre-Requisites
 -	Powershell V5 (Ex. Windows 10 has powershell 5.1 installed). https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell?view=powershell-6
