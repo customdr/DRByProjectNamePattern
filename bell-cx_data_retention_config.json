@@ -1,0 +1,23 @@
+{
+    "cx": {
+        "host" : "http://UPDATE_ME",
+        "username" : "UPDATE_ME",
+        "password" : "UPDATE_ME",
+        "db": {
+            "instance": "SQLSERVERINSTANCE_UPDATE\\ME",
+            "username": "",
+            "password": ""
+        }
+    },
+    "dataRetention": {
+        "durationLimitHours" : 4,
+        "removeScansWithNoCodeChange" : false,
+        "production": {
+            "projectNamePattern": "%_develop",
+            "daysToRetain": 300
+        },
+        "other": {
+            "scansToRetain": 100
+        }
+    }
+}
