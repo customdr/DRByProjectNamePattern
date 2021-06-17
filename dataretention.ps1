@@ -558,7 +558,7 @@ Class DataRetention {
 # ============ Execution Entry ============= #
 # ========================================== # 
 
-[PSCustomObject] $config = [Config]::new(".\bell-cx_data_retention_config.json").GetConfig()
+[PSCustomObject] $config = [Config]::new(".\cx_data_retention_config.json").GetConfig()
 
 # Override config from command line params, if provided
 if ($dbUser) { $config.cx.db.username = $dbUser }
